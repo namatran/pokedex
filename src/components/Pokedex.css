@@ -1,0 +1,40 @@
+.pokedex-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.pokemon {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+.pokemon-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.pokemon-number {
+  color: #999;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.pokemon-name {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.pokemon-link {
+  text-decoration: none;
+  color: inherit;
+}

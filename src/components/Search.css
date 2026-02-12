@@ -1,0 +1,42 @@
+@import './Pokedex.css';
+
+.search-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: var(--primary-red);
+}
+
+.search-prompt {
+  text-align: center;
+  color: #999;
+  font-size: 1.2rem;
+  grid-column: 1 / -1;
+  margin-top: 2rem;
+}
+
+.no-results {
+  text-align: center;
+  color: #999;
+  font-size: 1.2rem;
+  grid-column: 1 / -1;
+}

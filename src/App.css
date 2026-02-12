@@ -1,0 +1,39 @@
+:root {
+  --primary-red: #E21C25;
+  --primary-yellow: #f7e6a6;
+  --text-dark: black;
+  --text-light: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;  
+  justify-content: center;
+  margin: 0;
+  padding-top: 4rem;
+  background-color: var(--primary-yellow);
+}
+
+nav {
+  background-color: var(--primary-red);
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  justify-content: center;
+}
+
+nav a {
+  color: var(--primary-yellow);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--text-dark);
+}

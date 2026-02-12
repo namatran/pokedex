@@ -1,0 +1,108 @@
+.detail-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--primary-red);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.back-button:hover {
+  opacity: 0.7;
+}
+
+.detail-card {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.detail-name {
+  font-size: 3rem;
+  color: var(--primary-red);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.detail-image {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  margin: 2rem 0;
+}
+
+.detail-info {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.info-section {
+  margin-bottom: 2rem;
+}
+
+.info-section p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.info-section strong {
+  color: var(--primary-red);
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.info-section li {
+  text-transform: capitalize;
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+}
+
+.types {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.type-badge {
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Type colors */
+.type-grass { background-color: #78C850; }
+.type-poison { background-color: #A040A0; }
+.type-fire { background-color: #F08030; }
+.type-water { background-color: #6890F0; }
+.type-electric { background-color: #F8D030; }
+.type-normal { background-color: #A8A878; }
+.type-fighting { background-color: #C03028; }
+.type-flying { background-color: #A890F0; }
+.type-ground { background-color: #E0C068; }
+.type-rock { background-color: #B8A038; }
+.type-bug { background-color: #A8B820; }
+.type-ghost { background-color: #705898; }
+.type-steel { background-color: #B8B8D0; }
+.type-psychic { background-color: #F85888; }
+.type-ice { background-color: #98D8D8; }
+.type-dragon { background-color: #7038F8; }
+.type-dark { background-color: #705848; }
+.type-fairy { background-color: #EE99AC; }
