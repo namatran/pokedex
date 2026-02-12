@@ -6,6 +6,7 @@ const Home = () => {
         <div className="home-container">
             <h1>Welcome to the Pokédex App</h1>
             <p>Explore the world of Pokémon with our comprehensive Pokédex.</p>
+            <p>Clone of MIMO app pokedex project + claude code for CSS & search</p>
         </div>
     )
 }
